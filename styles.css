@@ -52,14 +52,23 @@ body {
     cursor: pointer;
     width: 40px;
     height: 40px;
+    transition: all 0.3s ease-in-out;
 }
 
 .carousel .carousel-actions button#carousel-button-prev {
     margin-left: 20px;
 }
 
+.carousel .carousel-actions button#carousel-button-prev:hover {
+    background-color: rgba(255, 255, 255, 0.85);
+}
+
 .carousel .carousel-actions button#carousel-button-next {
     margin-right: 20px;   
+}
+
+.carousel .carousel-actions button#carousel-button-next:hover {
+    background-color: rgba(255, 255, 255, 0.82);
 }
 
 @keyframes fadeVisibility {
